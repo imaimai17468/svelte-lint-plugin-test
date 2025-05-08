@@ -31,6 +31,10 @@ export default ts.config(
 				parser: ts.parser,
 				svelteConfig
 			}
+		},
+		rules: {
+			'prefer-const': 'off',
+			'svelte/prefer-const': 'error'
 		}
 	}
 );
