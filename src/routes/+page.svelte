@@ -13,7 +13,7 @@
 	</p>
 
 	<div class="mb-8">
-		<BindableRuneComponent bind:count={parentCount} />
+		<BindableRuneComponent bind:count={parentCount} label="Parent Count" />
 	</div>
 
 	<div class="rounded-md border border-gray-200 p-4">
